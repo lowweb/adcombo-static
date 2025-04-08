@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>abcombo</title>
+        <meta name="theme-color" content="#fff" />
+        <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <link
+            rel="shortcut icon"
+            href="img/favicons/favicon.ico"
+            type="image/x-icon"
+        />
+        <link
+            rel="icon"
+            sizes="16x16"
+            href="img/favicons/favicon-16x16.png"
+            type="image/png"
+        />
+        <link
+            rel="icon"
+            sizes="32x32"
+            href="img/favicons/favicon-32x32.png"
+            type="image/png"
+        />
+        <link
+            rel="apple-touch-icon-precomposed"
+            href="img/favicons/apple-touch-icon-precomposed.png"
+        />
+        <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="img/favicons/apple-touch-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="img/favicons/apple-touch-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="img/favicons/apple-touch-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="img/favicons/apple-touch-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="img/favicons/apple-touch-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="img/favicons/apple-touch-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="img/favicons/apple-touch-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="img/favicons/apple-touch-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="167x167"
+            href="img/favicons/apple-touch-icon-167x167.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="img/favicons/apple-touch-icon-180x180.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="1024x1024"
+            href="img/favicons/apple-touch-icon-1024x1024.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles/main.min.css" />
+    </head>
+    <body class="page__body">
+        <header class="header">
+    <div class="header__wrap">
+        <div class="ham" id="menu-btn">
+    <div class="ham-bar ham-bar--one"></div>
+    <div class="ham-bar ham-bar--two"></div>
+    <div class="ham-bar ham-bar--three"></div>
+</div>
+
+        <a class="header__logo">Logo</a>
+        <nav class="header-menu" id="headerMenu">
+    <ul class="header-menu__items">
+        <li class="header-menu__item">
+            <a id="nearby" class="header-menu__link" href="#" target="_blank"
+                >People nearby</a
+            >
+        </li>
+        <li class="header-menu__item">
+            <a id="search" class="header-menu__link" href="#" target="_blank"
+                >Search</a
+            >
+        </li>
+        <li class="header-menu__item">
+            <button id="sendRequest" class="button button--icon button--dark">
+                Premium
+                <svg
+                    class="button__icon"
+                    viewBox="0 0 18 18"
+                    width="18"
+                    height="18"
+                >
+                    <use href="img/sprites/sprite.svg#icn-diamond"></use>
+                </svg>
+            </button>
+        </li>
+    </ul>
+</nav>
+
+        <svg class="header__icon" viewBox="0 0 18 18" width="18" height="18">
+            <use href="img/sprites/sprite.svg#icn-diamond"></use>
+        </svg>
+    </div>
+</header>
+
+
+        
+        <div class="parallax" id="parallax"></div>
+        <main class="page__main">
+            <aside class="sidebar">
+    <div class="sidebar__header">
+        <div class="sidebar__header-wrap">
+            <span class="sidebar__icon">
+                <img src="img/img-profile.png" alt="profile" />
+            </span>
+            <span class="sidebar__header-text">
+                <span>Test2412</span>
+                <button id="sendRequest" class="button button--type3">
+                    GET PREMIUM
+                </button>
+            </span>
+        </div>
+    </div>
+    <ul class="sidebar__list">
+        <li class="sidebar__item">
+            <span class="sidebar__item-icn">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/icn-cam.svg"></use>
+                </svg>
+            </span>
+            <a href="#" class="sidebar__item-text"> Profile </a>
+        </li>
+        <li class="sidebar__item">
+            <span class="sidebar__item-photo">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-cam"></use>
+                </svg>
+            </span>
+            <a href="#" class="sidebar__item-text"> My photos </a>
+        </li>
+        <li class="sidebar__item">
+            <span class="sidebar__item-photo">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-comment"></use>
+                </svg>
+            </span>
+            <a href="#" class="sidebar__item-text"> Messages </a>
+        </li>
+        <li class="sidebar__item">
+            <span class="sidebar__item-photo">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-heart"></use>
+                </svg>
+            </span>
+            <a href="#" class="sidebar__item-text"> Favorites </a>
+        </li>
+        <li class="sidebar__item">
+            <span class="sidebar__item-photo">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-eye"></use>
+                </svg>
+            </span>
+            <a href="#" class="sidebar__item-text"> Guests </a>
+        </li>
+        <li class="sidebar__item">
+            <span class="sidebar__item-photo">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-settings"></use>
+                </svg>
+            </span>
+            <a href="#" class="sidebar__item-text"> Settings </a>
+        </li>
+        <li class="sidebar__item">
+            <span class="sidebar__item-photo">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-exit"></use>
+                </svg>
+            </span>
+            <a href="#" class="sidebar__item-text"> Log out </a>
+        </li>
+    </ul>
+</aside>
+
+            <div class="main">
+                <h1 class="main__caption">Закончились кредиты?</h1>
+                <div class="discount">
+    <span class="discount__title">Скидка 40%</span>
+    <span class="discount__count">
+        <span class="discount__count-text">
+            Предложение действует в течение:
+        </span>
+        <div class="discount__timer timer">
+            <span id="hours">00</span>
+            <span>:</span>
+            <span id="minutes">10</span>
+            <span>:</span>
+            <span id="seconds">00</span>
+        </div>
+    </span>
+</div>
+
+                <div class="slider" role="region">
+    <div class="slides slider__list" aria-live="polite">
+        <div
+            class="slider__item"
+            role="group"
+            aria-labelledby="item-1-label"
+            id="carousel-item-1"
+        >
+            <div class="card">
+                <div class="card__badge">One time offer!</div>
+                <div class="card__price-wrap">
+                    <span class="card__price-one">50</span>
+                    <span class="card__price-sep">/</span>
+                    <span class="card__price-two">$5</span>
+                </div>
+                <button
+                    id="sendRequest"
+                    class="button button--type1 card__button"
+                >
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <div
+            class="slider__item"
+            role="group"
+            aria-labelledby="item-1-label"
+            id="carousel-item-1"
+        >
+            <div class="card">
+                <div class="card__badge">One time offer!</div>
+                <div class="card__price-wrap">
+                    <span class="card__price-one">150</span>
+                    <span class="card__price-sep">/</span>
+                    <span class="card__price-two">$25</span>
+                </div>
+                <button
+                    id="sendRequest"
+                    class="button button--type1 card__button"
+                >
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <div
+            class="slider__item"
+            role="group"
+            aria-labelledby="item-1-label"
+            id="carousel-item-1"
+        >
+            <div class="card">
+                <div class="card__badge">One time offer!</div>
+                <div class="card__price-wrap">
+                    <span class="card__price-one">350</span>
+                    <span class="card__price-sep">/</span>
+                    <span class="card__price-two">$35</span>
+                </div>
+                <button
+                    id="sendRequest"
+                    class="button button--type1 card__button"
+                >
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <div
+            class="slider__item"
+            role="group"
+            aria-labelledby="item-1-label"
+            id="carousel-item-1"
+        >
+            <div class="card">
+                <div class="card__badge">One time offer!</div>
+                <div class="card__price-wrap">
+                    <span class="card__price-one">550</span>
+                    <span class="card__price-sep">/</span>
+                    <span class="card__price-two">$50</span>
+                </div>
+                <button
+                    id="sendRequest"
+                    class="button button--type1 card__button"
+                >
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <div
+            class="slider__item"
+            role="group"
+            aria-labelledby="item-1-label"
+            id="carousel-item-1"
+        >
+            <div class="card">
+                <div class="card__badge">One time offer!</div>
+                <div class="card__price-wrap">
+                    <span class="card__price-one">150</span>
+                    <span class="card__price-sep">/</span>
+                    <span class="card__price-two">$25</span>
+                </div>
+                <button
+                    id="sendRequest"
+                    class="button button--type1 card__button"
+                >
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <div
+            class="slider__item"
+            role="group"
+            aria-labelledby="item-1-label"
+            id="carousel-item-1"
+        >
+            <div class="card">
+                <div class="card__badge">One time offer!</div>
+                <div class="card__price-wrap">
+                    <span class="card__price-one">250</span>
+                    <span class="card__price-sep">/</span>
+                    <span class="card__price-two">$25</span>
+                </div>
+                <button
+                    id="sendRequest"
+                    class="button button--type1 card__button"
+                >
+                    Buy now
+                </button>
+            </div>
+        </div>
+        <div
+            class="slider__item"
+            role="group"
+            aria-labelledby="item-1-label"
+            id="carousel-item-1"
+        >
+            <div class="card">
+                <div class="card__badge">One time offer!</div>
+                <div class="card__price-wrap">
+                    <span class="card__price-one">250</span>
+                    <span class="card__price-sep">/</span>
+                    <span class="card__price-two">$25</span>
+                </div>
+                <button
+                    id="sendRequest"
+                    class="button button--type1 card__button"
+                >
+                    Buy now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div
+        class="slider__controls controls"
+        role="group"
+        aria-label="Управление слайдами"
+    >
+        <button
+            class="controls__button button-radio"
+            type="button"
+            aria-current="true"
+            aria-label="Показать 1 из 6"
+        ></button>
+        <button
+            class="controls__button button-radio"
+            type="button"
+            aria-label="Показать 2 из 6"
+        ></button>
+        <button
+            class="controls__button button-radio"
+            type="button"
+            aria-label="Показать 3 из 6"
+        ></button>
+        <button
+            class="controls__button button-radio"
+            type="button"
+            aria-label="Показать 4 из 6"
+        ></button>
+        <button
+            class="controls__button button-radio"
+            type="button"
+            aria-label="Показать 5 из 6"
+        ></button>
+        <button
+            class="controls__button button-radio"
+            type="button"
+            aria-label="Показать 6 из 6"
+        ></button>
+    </div>
+</div>
+
+                <button id="sendRequest" class="button button--type2">
+                    Try now
+                </button>
+                <div class="terms">
+  <label class="checkbox">
+  <span></span>
+  <input type="checkbox" class="checkbox__input" />
+  <span class="checkbox__box"> </span>
+</label>
+
+  <span class="terms__text"
+    >By clicking Checkbox you agree and accept our
+    <a href="#" class="terms__link">Privacy Policy</a>, and
+    <a href="#" class="terms__link">Terms of use</a>
+  </span>
+</div>
+
+                <div class="functions">
+    <svg class="functions__img" viewBox="0 0 18 18" width="18" height="18">
+        <use href="../img/sprites/sprite.svg#icn-diamond-big"></use>
+    </svg>
+
+    <ul class="functions__list">
+        <li class="functions__item">
+            <span class="functions__item-img">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-comment"></use>
+                </svg>
+            </span>
+
+            <span class="functions__item-text">Отправлять сообщения</span>
+        </li>
+        <li class="functions__item">
+            <span class="functions__item-img">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-eye"></use>
+                </svg>
+            </span>
+
+            <span class="functions__item-text">Просматривать скрытые фото</span>
+        </li>
+        <li class="functions__item">
+            <span class="functions__item-img">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-gift"></use>
+                </svg>
+            </span>
+
+            <span class="functions__item-text">Оплачивать подарки</span>
+        </li>
+        <li class="functions__item">
+            <span class="functions__item-img">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-heart"></use>
+                </svg>
+            </span>
+            <span class="functions__item-text"
+                >Пользоваться другими премиум функциями</span
+            >
+        </li>
+        <li class="functions__item">
+            <span class="functions__item-img">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-comment"></use>
+                </svg>
+            </span>
+
+            <span class="functions__item-text">Отправлять сообщения</span>
+        </li>
+        <li class="functions__item">
+            <span class="functions__item-img">
+                <svg viewBox="0 0 18 18" width="18" height="18">
+                    <use href="img/sprites/sprite.svg#icn-eye"></use>
+                </svg>
+            </span>
+
+            <span class="functions__item-text">Просматривать скрытые фото</span>
+        </li>
+    </ul>
+</div>
+
+                
+            </div>
+        </main>
+        
+
+        <script src="js/main.min.js"></script>
+    </body>
+</html>
